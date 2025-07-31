@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>News - Your University</title>
+  <style>
+    body { font-family: Arial; background: #f5f5f5; padding: 30px; }
+    h2 { text-align: center; }
+    .news-box {
+      max-width: 700px; margin: auto;
+      background: white; padding: 20px;
+      border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .news-item {
+      border-bottom: 1px solid #ddd; padding: 10px 0;
+    }
+    .news-item:last-child { border: none; }
+  </style>
+</head>
+<body>
+  <div class="news-box">
+    <h2>Latest News & Notices</h2>
+    <div class="news-item">
+      <h3>📅 Admission 2025 Open</h3>
+      <p>Admission forms are available online from August 1, 2025.</p>
+    </div>
+    <div class="news-item">
+      <h3>🎓 Convocation Ceremony</h3>
+      <p>Convocation will be held on September 15th at the Main Auditorium.</p>
+    </div>
+    <div class="news-item">
+      <h3>📢 Placement Drive</h3>
+      <p>Top companies visiting campus on October 10th. Register now!</p>
+    </div>
+  </div>
+</body>
+</html>
