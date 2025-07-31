@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your University</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; }
+    header { background-color: #004080; color: white; padding: 20px; text-align: center; }
+    nav { background-color: #003366; display: flex; flex-wrap: wrap; justify-content: center; }
+    nav a { color: white; padding: 14px 20px; text-decoration: none; text-align: center; }
+    nav a:hover { background-color: #002244; }
+    section { padding: 20px; }
+    footer { background-color: #004080; color: white; text-align: center; padding: 10px; }
+    @media (max-width: 600px) { nav a { flex: 1 1 100%; } }
+  </style>
+</head>
+<body>
+  <header><h1>Your University Name</h1><p>Empowering Minds, Building Futures</p></header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="news.html">News</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="login.html">Login</a>
+    <a href="register.html">Register</a>
+  </nav>
+  <section><h2>Welcome</h2><p>Welcome to Your University. Explore departments, programs, and events!</p></section>
+  <footer><p>© 2025 Your University</p></footer>
+</body>
+</html>
